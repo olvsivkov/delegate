@@ -1,0 +1,4 @@
+1. npx express-generator // установка експресс
+2. npm install // установка необходимых зависимостей для експресс
+3. npm install multer // пакет для управления загрузками
+4. npx prisma init // инициируем работу с mongodb
