@@ -2,3 +2,9 @@
 2. npm install // установка необходимых зависимостей для експресс
 3. npm install multer // пакет для управления загрузками
 4. npx prisma init // инициируем работу с mongodb
+
+docker run --name mongo \
+       -p 27017:27017 \
+       -e MONGO_INITDB_ROOT_USERNAME="monty" \
+       -e MONGO_INITDB_ROOT_PASSWORD="pass" \
+       -d prismagraphql/mongo-single-replica:4.2.17-bionic
